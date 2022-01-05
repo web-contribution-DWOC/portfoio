@@ -1,0 +1,300 @@
+
+body {
+    background-color: #37474f;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*----- whatsapp fab ------*/
+#fab{
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    position: fixed;
+    margin-left: 95%;
+    margin-top: 35%;
+    background-image: url("../images/whatsapp.png");
+    border-radius: 60%;
+}
+
+
+
+/* ------ introduction part ------ */
+.intro_line1 {
+    font-size: 25px;
+    font-weight: 1000;
+    color: #ffe0b2;
+}
+.intro_line2 {
+    font-size: 60px;
+    font-weight: 900;
+    color: #ffffff;
+    margin-top: 35px;
+}
+
+.intro_line3 {
+ font-size: 35px;   
+ font-weight: 900;
+ color: #c8d3dad5;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ margin-top: 30px;
+}
+
+.intro_table {
+ margin-top: 200px;
+ margin-left: 200px;
+ margin-bottom: 200px;
+ height: 600px;
+ width: 560px;
+}
+
+.intro_img {
+    margin-top: 80px;
+    margin-left: 150px;
+    height: 600px;
+    width: 500px;
+    background-image: url("../images/profile.png");
+    background-size: cover;
+    background-color: #111111;
+    border-radius: 25px;
+}
+
+.intro {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+}
+
+.intro_back_shape {
+ position: relative;
+ height: 800px;
+ width: 750px;
+ border-top-right-radius: 45%;
+ border-bottom-left-radius: 45%;
+ border-bottom-right-radius: 30%;
+ background-color: #212121;
+}
+
+
+
+
+
+/* ---- top social ---- */
+.top_social {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ margin-top: 650px;
+ margin-left: 100px;
+ height: 70px;
+ position: absolute;
+}
+
+
+.social_back_insta {
+    background-color: #ffe0b2;
+    margin-left: 100px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+
+.social_back_linkedin {
+    background-color: #ffe0b2;
+    margin-left: 100px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.social_back_twitter {
+    background-color: #ffe0b2;
+    margin-left: 100px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+
+
+.social_insta {
+  background-image: url("../images/insta.png");
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+ 
+}
+
+.social_linkedin {
+  background-image: url("../images/linkedin.png");
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+}
+
+.social_twitter {
+  background-image: url("../images/twitter.png");
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+}
+
+
+
+
+
+
+/*------footer part -------*/
+.footer_back {
+    background-color: #090707;
+    height: 400px;
+    width: auto;
+    margin-bottom: 0%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer_line {
+    font-size: 55px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.footer_line2 {
+    font-size: 30px;
+    color: #bdbdbd;
+    margin-top: 10px;
+}
+
+.connect_container {
+   height: 200px;
+   width: auto;
+   margin: 45px;
+}
+
+.footer_line3 {
+    font-size: 30px;
+    color: #bdbdbd;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+/*------ footer social  part ------*/
+.footer_social_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: auto;
+    margin-top: 25px;
+}
+
+.footer_social_container_2 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: auto;
+    margin-top: 20px;
+}
+
+.footer_social_insta {
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    margin-left: 100px;
+}
+
+.footer_social_linkedin {
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    margin-left: 100px;
+}
+
+.footer_social_twitter {
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    margin-left: 100px;
+}
+
+.footer_social_github {
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    margin-left: 100px;
+}
+
+.footer_social_showcase {
+    height: 50px;
+    width: 50px;
+    margin-left: 100px;
+}
+
+
+
+/*----- footer contact part ------*/
+.footer_contact_container {
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+.footer_contact_number_back {
+    height: 250px;
+    width: 270px;
+    background-color: #37474f;
+    margin: 70px;
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-right: 50px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.footer_contact_mail_back {
+    height: 250px;
+    width: 270px;
+    background-color: #37474f;
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 70px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.footer_contact_number {
+    height: 40px;
+    width: 40px;
+    margin-left: 120px;
+    margin-top: 65px;
+}
+
+.footer_contact_mail {
+    height: 40px;
+    width: 40px;
+    margin-left: 120px;
+    margin-top: 65px;
+}
+
+.footer_contact_number_text {
+  margin-left: 85px;
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.footer_contact_mail_text {
+   margin-left: 20px;
+   margin-top: 40px;
+   font-size: 20px;
+   font-weight: 900;
+   color: #ffffff;
+}
+
+
+
