@@ -50,7 +50,6 @@ a {
 .intro_table {
  margin-top: 200px;
  margin-left: 200px;
-
  height: max-content;
  width: 560px;
 }
@@ -72,8 +71,8 @@ a {
 }
 
 .intro_back_shape {
- position: relative;
- height: 750px;;
+ /* position: relative; */
+ height: 750px;
  width: 750px;
  border-top-right-radius: 45%;
  border-bottom-left-radius: 45%;
@@ -316,9 +315,118 @@ grid-template-columns: 1fr 1fr;
 
    #fab{
     background-size: cover;
-    height: 100px;
-    width: 100px;
-    margin-left: 90%;
-    margin-top: 160%;
+    height: 150px;
+    width: 150px;
+    margin-left: 85%;
+    margin-top: 140%;
 }
+
+  .intro_back_shape {
+      height: 1570px;
+      width: 1400px;
+  }
+
+  .intro  {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    z-index: 999;
+  }
+
+  .intro_table {
+    height: max-content;
+    width: auto;
+  }
+
+  .intro_line1 {
+     font-size: 100px;
+     margin-top: 130px;
+  }
+
+  .intro_line2 {  
+    font-size: 170px;
+  }
+
+  .intro_line3 {
+    font-size: 75px;
+  }
+
+
+  .top_social {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+    margin-top: 45px;
+    height: max-content;
+    width: 1000px;
+    margin-left: 90px;
+   }
+   
+   
+   .social_back_insta {
+       background-color: #ffe0b2;
+       border-radius: 100%;
+       height: 125px;
+       width: 125px; 
+   }
+   
+   
+   .social_back_linkedin {
+       background-color: #ffe0b2;
+       /* margin-left: 50px; */
+       border-radius: 50%;
+       height: 125px;
+       width: 125px; 
+   }
+   
+   .social_back_twitter {
+       background-color: #ffe0b2;
+       /* margin-left: 100px; */
+       border-radius: 50%;
+       height: 125px;
+       width: 125px; 
+   }
+   
+   
+   
+   .social_insta {
+     background-image: url("../images/insta.png");
+     background-size: cover;
+     height: 125px;
+     width: 125px;   
+   }
+   
+   .social_linkedin {
+     background-image: url("../images/linkedin.png");
+     background-size: cover;
+     height: 125px;
+     width: 125px; 
+   }
+   
+   .social_twitter {
+     background-image: url("../images/twitter.png");
+     background-size: cover;
+     height: 125px;
+     width: 125px; 
+   }
+
+
+   .intro_img {
+    margin-top: 170px;
+    margin-left: 90px;
+    height: 1300px;
+    width: 1200px;
+    background-image: url("../images/profile.png");
+    background-size: cover;
+    background-color: #111111;
+    border-radius: 25px;
+}
+
+.waah {
+    widht: 500px;
+    height: 700px;
+    /* background-color: green; */
+    margin-top: 1600px;
+}
+
+
 }
