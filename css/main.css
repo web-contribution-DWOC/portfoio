@@ -448,7 +448,7 @@ grid-template-columns: 1fr 1fr;
 }
 
 .footer_line {
-    font-size: 100px;
+    font-size: 80px;
     font-weight: 700;
     color: #ffffff;
 }
@@ -531,8 +531,8 @@ grid-template-columns: 1fr 1fr;
 }
 
 .footer_contact_number_back {
-    height: 500px;
-    width: 520px;
+    height: 750px;
+    width: 680px;
     background-color: #37474f;
     margin: 70px;
     margin-top: 70px;
@@ -543,8 +543,8 @@ grid-template-columns: 1fr 1fr;
 }
 
 .footer_contact_mail_back {
-    height: 500px;
-    width: 520px;
+    height: 750px;
+    width: 680px;
     background-color: #37474f;
     margin-top: 70px;
     margin-left: 50px;
@@ -556,28 +556,28 @@ grid-template-columns: 1fr 1fr;
 .footer_contact_number {
     height: 40px;
     width: 40px;
-    margin-left: 180px;
-    margin-top: 105px;
+    margin-left: 280px;
+    margin-top: 205px;
 }
 
 .footer_contact_mail {
     height: 40px;
     width: 40px;
-    margin-left: 180px;
-    margin-top: 105px;
+    margin-left: 280px;
+    margin-top: 205px;
 }
 
 .footer_contact_number_text {
-  margin-left: 120px;
-  margin-top: 100px;
+  margin-left: 220px;
+  margin-top: 120px;
   font-size: 45px;
   font-weight: 900;
   color: #ffffff;
 }
 
 .footer_contact_mail_text {
-   margin-left: 20px;
-   margin-top: 100px;
+   margin-left:  100px;
+   margin-top: 120px;
    font-size: 40px;
    font-weight: 900;
    color: #ffffff;
