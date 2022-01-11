@@ -9,6 +9,12 @@ a {
     text-decoration: none;
 }
 
+.waah {
+    width: 500px;
+    height: 700px;
+    /* background-color: green; */
+    margin-top: 1600px;
+}
 
 /*----- whatsapp fab ------*/
 #fab{
@@ -307,11 +313,6 @@ grid-template-columns: 1fr 1fr;
 
 /*-------- media queries ----------*/
 @media screen and (max-width:1060px){
-   .footer_back {
-       width: 1400px;
-       position: relative;
-       bottom: 0px;
-   }
 
    #fab{
     background-size: cover;
@@ -344,6 +345,7 @@ grid-template-columns: 1fr 1fr;
 
   .intro_line2 {  
     font-size: 170px;
+    margin-top: 25px;
   }
 
   .intro_line3 {
@@ -421,12 +423,173 @@ grid-template-columns: 1fr 1fr;
     border-radius: 25px;
 }
 
-.waah {
-    widht: 500px;
-    height: 700px;
-    /* background-color: green; */
-    margin-top: 1600px;
+
+
+
+
+
+/** responsive footer part*/
+
+/*------footer part -------*/
+.footer_back {
+    background-color: #090707;
+    height: max-content;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: none;
+    bottom: 0%;
+    width: 1500px;
+    position: relative;
 }
+
+.footer_left_container {
+    width: auto;
+    height: auto;
+}
+
+.footer_line {
+    font-size: 100px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.footer_line2 {
+    font-size: 60px;
+    color: #bdbdbd;
+    margin-top: 60px;
+}
+
+.connect_container {
+   height: auto;
+   width: auto;
+   margin: 45px;
+}
+
+.footer_line3 {
+    font-size: 60px;
+    color: #bdbdbd;
+    margin-top: 60px;
+}
+
+
+
+/*------ footer social  part ------*/
+.footer_social_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: auto;
+    margin-top: 35px;
+}
+
+.footer_social_container_2 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: auto;
+    margin-top: 20px;
+}
+
+.footer_social_insta {
+    background-size: cover;
+    height: 125px;
+    width: 125px;
+    margin-left: 150px;
+}
+
+.footer_social_linkedin {
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+    margin-left: 150px;
+}
+
+.footer_social_twitter {
+    background-size: cover;
+    height: 125px;
+    width: 125px;
+    margin-left: 150px;
+}
+
+.footer_social_github {
+    background-size: cover;
+    height: 125px;
+    width: 125px;
+    margin-left: 150px;
+}
+
+.footer_social_showcase {
+    height: 125px;
+    width: 125px;
+    margin-left: 150px;
+}
+
+
+
+/*----- footer contact part ------*/
+.footer_contact_container {
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+.footer_contact_number_back {
+    height: 500px;
+    width: 520px;
+    background-color: #37474f;
+    margin: 70px;
+    margin-top: 70px;
+    margin-left: 120px;
+    margin-right: 50px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.footer_contact_mail_back {
+    height: 500px;
+    width: 520px;
+    background-color: #37474f;
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 70px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.footer_contact_number {
+    height: 40px;
+    width: 40px;
+    margin-left: 180px;
+    margin-top: 105px;
+}
+
+.footer_contact_mail {
+    height: 40px;
+    width: 40px;
+    margin-left: 180px;
+    margin-top: 105px;
+}
+
+.footer_contact_number_text {
+  margin-left: 120px;
+  margin-top: 100px;
+  font-size: 45px;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.footer_contact_mail_text {
+   margin-left: 20px;
+   margin-top: 100px;
+   font-size: 40px;
+   font-weight: 900;
+   color: #ffffff;
+}
+
+
+
+svg {
+    height: 115px;
+    width: 115px;
+}
+
 
 
 }
