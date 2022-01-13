@@ -3,6 +3,7 @@ body {
     background-color: #37474f;
     height: 100vw;
     width: 100vw;
+    margin: 0%;
 }
 
 a {
@@ -323,7 +324,7 @@ grid-template-columns: 1fr 1fr;
 }
 
   .intro_back_shape {
-      height: 1570px;
+      height: 1620px;
       width: 1450px;
   }
 
@@ -339,7 +340,7 @@ grid-template-columns: 1fr 1fr;
   }
 
   .intro_line1 {
-     font-size: 140px;
+     font-size: 105px;
      margin-top: 130px;
   }
 
@@ -374,7 +375,6 @@ grid-template-columns: 1fr 1fr;
    
    .social_back_linkedin {
        background-color: #ffe0b2;
-       /* margin-left: 50px; */
        border-radius: 50%;
        height: 125px;
        width: 125px; 
@@ -382,7 +382,6 @@ grid-template-columns: 1fr 1fr;
    
    .social_back_twitter {
        background-color: #ffe0b2;
-       /* margin-left: 100px; */
        border-radius: 50%;
        height: 125px;
        width: 125px; 
@@ -448,7 +447,7 @@ grid-template-columns: 1fr 1fr;
 }
 
 .footer_line {
-    font-size: 80px;
+    font-size: 150px;
     font-weight: 700;
     color: #ffffff;
 }
@@ -576,7 +575,7 @@ grid-template-columns: 1fr 1fr;
 }
 
 .footer_contact_mail_text {
-   margin-left:  100px;
+   margin-left:  70px;
    margin-top: 120px;
    font-size: 40px;
    font-weight: 900;
