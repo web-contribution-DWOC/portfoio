@@ -24,7 +24,7 @@ a {
     width: 50px;
     background-color: green;
     position: fixed;
-    margin-left: 95%;
+    margin-left: 97%;
     margin-top: 35%;
     background-image: url("../images/whatsapp.png");
     border-radius: 60%;
@@ -325,7 +325,7 @@ grid-template-columns: 1fr 1fr;
 
   .intro_back_shape {
       height: 1620px;
-      width: 1450px;
+      width: 1470px;
   }
 
   .intro  {
