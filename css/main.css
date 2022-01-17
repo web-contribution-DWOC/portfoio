@@ -1,6 +1,6 @@
 
 body {
-    background-color: #37474f;
+    background-color: #141b20;
     height: 100vw;
     width: 100vw;
     margin: 0%;
@@ -22,15 +22,74 @@ a {
     background-size: cover;
     height: 50px;
     width: 50px;
-    background-color: green;
+    background-color: #090707;
     position: fixed;
-    margin-left: 97%;
+    margin-left: 95%;
     margin-top: 35%;
-    background-image: url("../images/whatsapp.png");
     border-radius: 60%;
     z-index: 999;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
 }
 
+.fab_roll {
+ background-color: green;
+}
+
+.fab_roll:hover .fab_info {
+    display: block;
+    transition: display 2s;
+}
+
+.fab_info {
+    display: none;
+    font-size: 20px;
+    color: white;
+    background-color: #090707;
+    margin-left: 74%;
+    position: fixed;
+    z-index: 999;
+    margin-top: 34%;
+    height: 80px;
+    width: 320px;
+    justify-content: center;
+    border-radius: 20px;
+    white-space: nowrap;
+    transition: all 0.5s ease-in-out;
+}
+
+.contnt {
+    margin-top:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#call:hover #call_svg {
+    height: 50px;
+    width: 50px;
+    box-shadow: 5px 10px 8px black;
+}
+
+#call:hover .footer_contact_number_text {
+    font-size: 25px;
+    text-shadow: 5px 10px 8px black;
+    margin-left: 80px;
+}
+
+#mail:hover #mail_svg {
+    height: 50px;
+    width: 50px;
+    box-shadow: 5px 10px 8px black;
+}
+
+#mail:hover .footer_contact_mail_text{
+    font-size: 22px;
+    text-shadow: 5px 10px 8px black;
+    margin-left: 5px;
+}
 
 
 /* ------ introduction part ------ */
@@ -40,7 +99,7 @@ a {
     color: #ffe0b2;
 }
 .intro_line2 {
-    font-size: 60px;
+    font-size: 90px;
     font-weight: 900;
     color: white;
     margin-top: 35px;
@@ -48,7 +107,7 @@ a {
 }
 
 .intro_line3 {
- font-size: 35px;   
+ font-size: 25px;   
  font-weight: 900;
  color: #c8d3dad5;
  font-family: Georgia, 'Times New Roman', Times, serif;
@@ -56,38 +115,40 @@ a {
 }
 
 .intro_table {
- margin-top: 200px;
- margin-left: 200px;
+ margin-top: 160px;
+ margin-left: 450px;
  height: max-content;
  width: 560px;
 }
 
 .intro_img {
-    margin-top: 80px;
-    margin-left: 150px;
-    height: 600px;
-    width: 500px;
+    margin-top: 250px;
+    margin-left: 20%;
+    height: 300px;
+    width: 300px;
     background-image: url("../images/profile.png");
     background-size: cover;
-    background-color: #111111;
-    border-radius: 25px;
+    background-color: #666666;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 50%;
+    border-style: solid;
     /* box-shadow: 30px 25px #200000;
     z-index: 998; */
 }
 
 .intro {
  display: grid;
- grid-template-columns: 1fr 1fr;
+ grid-template-columns: 1fr;
 }
 
 .intro_back_shape {
  /* position: relative; */
- height: 750px;
- width: 750px;
- border-top-right-radius: 45%;
- border-bottom-left-radius: 45%;
- border-bottom-right-radius: 30%;
- background-color: #212121;
+ height: 650px;
+ width: 325px;
+ margin-top: 30px;
+border-radius: 0 325px 325px 0;
+ background-color: #090707;
 }
 
 
@@ -96,24 +157,28 @@ a {
 
 /* ---- top social ---- */
 .top_social {
+ position: fixed;
  display: grid;
- grid-template-columns: 2fr 2fr 2fr;
- margin-top: 20px;
+ grid-template-rows: 2fr 2fr 2fr;
+ grid-gap: 50px;
  height: max-content;
  width: 450px;
+ z-index: 999;
+ margin-top: 20%;
+ margin-left: 5px;
 }
 
 
 .social_back_insta {
-    background-color: #ffe0b2;
-    border-radius: 100%;
+    background-color: #090707;
+    border-radius: 50%;
     height: 50px;
     width: 50px;
 }
 
 
 .social_back_linkedin {
-    background-color: #ffe0b2;
+    background-color: #090707;
     /* margin-left: 50px; */
     border-radius: 50%;
     height: 50px;
@@ -121,7 +186,7 @@ a {
 }
 
 .social_back_twitter {
-    background-color: #ffe0b2;
+    background-color: #ffebee;
     /* margin-left: 100px; */
     border-radius: 50%;
     height: 50px;
@@ -131,25 +196,34 @@ a {
 
 
 .social_insta {
-  background-image: url("../images/insta.png");
   background-size: cover;
   height: 50px;
   width: 50px;
- 
 }
 
 .social_linkedin {
-  background-image: url("../images/linkedin.png");
   background-size: cover;
   height: 50px;
   width: 50px;
 }
 
 .social_twitter {
-  background-image: url("../images/twitter.png");
-  background-size: cover;
+   background-size: cover;
   height: 50px;
   width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hr {
+    background-color: white;
+    height: 2px;
+    width: 500px;
+    margin-top: 340px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 
@@ -188,7 +262,7 @@ a {
 .connect_container {
    height: auto;
    width: auto;
-   margin: 45px;
+   margin: 65px;
 }
 
 .footer_line3 {
@@ -312,6 +386,32 @@ grid-template-columns: 1fr 1fr;
    color: #ffffff;
 }
 
+/** About me design */
+.about_container {
+    margin-top: 200px;
+    margin-left: 30%;
+   font-weight: 900;
+}
+
+.about_head {
+    color: rgb(227, 229, 255);
+    font-size: 30px;
+}
+
+.about_info {
+    color: #c8d3dad5;
+    width: 500px;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
 
 
 
@@ -421,11 +521,28 @@ grid-template-columns: 1fr 1fr;
     width: 1200px;
     background-image: url("../images/profile.png");
     background-size: cover;
-    background-color: #111111;
+    background-color: #666666;
+    border-width: 20px;
+    border-color: black;
     border-radius: 25px;
-    box-shadow: 60px 80px #200000;
-    z-index: 998;
+    /* box-shadow: 60px 80px #200000;
+    z-index: 998; */
 }
+
+.hr {
+    background-color: white;
+    height: 10px;
+    width: 1300px;
+    margin-top: 1550px;
+
+ 
+   margin-right: 50%;
+   transform: translateX(-30%);
+   position: relative;
+ 
+
+}
+
 
 
 
