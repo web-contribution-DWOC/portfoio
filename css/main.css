@@ -293,6 +293,9 @@ border-radius: 0 325px 325px 0;
 
 
 
+
+
+
 /*------footer part -------*/
 .footer_back {
     background-color: #090707;
@@ -775,4 +778,14 @@ svg {
 
 
 
+}
+
+#top_insta  {
+    width: 50px;
+}
+#top_linkedin {
+    width: 50px;
+}
+#top_twitter {
+    width: 50px;
 }
