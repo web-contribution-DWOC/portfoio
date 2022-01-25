@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth ;
+}
 
 body {
     background-color: #141b20;
@@ -90,6 +93,41 @@ a {
     text-shadow: 5px 10px 8px black;
     margin-left: 5px;
 }
+
+
+/**
+  navigation part top
+*/
+
+.nav_home {
+    color: white;
+    font-size: 33px;
+    top: 50px;
+    position: absolute;
+    left: 60%;
+}
+
+.nav_teck_stack{
+    color: white;
+    font-size: 33px;
+    top: 50px;
+    position: absolute;
+    left: 70%;
+}
+
+.nav_projects {
+    color: white;
+    font-size: 33px;
+    top: 50px;
+    position: absolute;
+    left: 85%;
+}
+
+
+
+
+
+
 
 
 /* ------ introduction part ------ */
