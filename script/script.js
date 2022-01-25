@@ -2,11 +2,12 @@ var fab2 = document.getElementById("fab2");
 var home = document.getElementById("home");
 var stack = document.getElementById("stack");
 var projects = document.getElementById("projects");
+var fab = document.getElementById("fab");
 
 function myScroll() {
     var y = window.scrollY;
 
-    if(y>200){
+    if(y>700){
         fab2.style.display ="block";
     }
     else {
