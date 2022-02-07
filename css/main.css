@@ -68,6 +68,32 @@ mark {
     z-index: 999;
     transform: rotate(-90deg);
 }
+#svg_fab2:hover {
+    height: 60px;
+    width: 60px;
+}
+
+#svg_fab:hover {
+    height: 60px;
+    width: 60px;
+}
+
+#svg_top_insta:hover {
+    height: 60px;
+    width: 60px;
+}
+#svg_top_linkedin:hover {
+    height: 60px;
+    width: 60px;
+}
+#svg_top_twitter:hover {
+    height: 60px;
+    width: 60px;
+}
+#social_back_twitter:hover {
+    height: 60px;
+    width: 60px;
+}
 
 .fab_roll {
  background-color: green;
@@ -134,6 +160,28 @@ video {
     height: 980px;
     width: 100vw;
    /* filter: blur(5px); */
+}
+
+
+#footer_insta:hover {
+    height: 60px;
+    width: 60px;
+}
+#footer_linkedin:hover {
+    height: 60px;
+    width: 60px;
+}
+#footer_twitter:hover {
+    height: 60px;
+    width: 60px;
+}
+#footer_github:hover {
+    height: 60px;
+    width: 60px;
+}
+#footer_showcase:hover {
+    height: 60px;
+    width: 60px;
 }
 
 
@@ -387,8 +435,8 @@ border-radius: 0 325px 325px 0;
 
 .connect_container {
    height: auto;
-   width: auto;
-   margin: 65px;
+   width: max-content;
+   margin: 80px;
 }
 
 .footer_line3 {
@@ -405,50 +453,58 @@ border-radius: 0 325px 325px 0;
 /*------ footer social  part ------*/
 .footer_social_container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr ;
     width: auto;
     margin-top: 25px;
+    grid-gap: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.footer_social_container a {
+     height: max-content;
+     width: max-content;
+}
+.footer_social_container_2 a {
+    height: max-content;
+    width: max-content;
 }
 
 .footer_social_container_2 {
     display: grid;
-    grid-template-columns: 1fr 3fr;
-    width: auto;
+    grid-template-columns: 1fr 1fr;
     margin-top: 20px;
+    padding-left: 70px;
+    width: 330px;
 }
 
 .footer_social_insta {
     background-size: cover;
     height: 50px;
     width: 50px;
-    margin-left: 100px;
 }
 
 .footer_social_linkedin {
     background-size: cover;
     height: 50px;
     width: 50px;
-    margin-left: 100px;
 }
 
 .footer_social_twitter {
     background-size: cover;
     height: 50px;
     width: 50px;
-    margin-left: 100px;
 }
 
 .footer_social_github {
     background-size: cover;
     height: 50px;
     width: 50px;
-    margin-left: 100px;
 }
 
 .footer_social_showcase {
     height: 50px;
     width: 50px;
-    margin-left: 100px;
 }
 
 
