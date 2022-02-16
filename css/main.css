@@ -275,16 +275,18 @@ header {
  width: 560px;
 }
 
+
+
 .intro_img {
-    margin-top: 250px;
+    margin-top: 50px;
     margin-left: 20%;
     height: 300px;
     width: 300px;
     background-image: url("../images/profile.png");
     background-size: cover;
-    background-color: #666666;
-    border-width: 5px;
-    border-color: black;
+    background-color: #373737;
+    border-width: 4px;
+    border-color: rgb(194, 194, 194);
     border-radius: 50%;
     border-style: solid;
     /* box-shadow: 30px 25px #200000;
@@ -572,9 +574,12 @@ grid-template-columns: 1fr 1fr;
 
 /** About me design */
 .about_container {
-    margin-top: 200px;
-    margin-left: 30%;
+    height: max-content;
+    width: max-content;
    font-weight: 900;
+   background-color:rgb(13, 6, 68) ;
+   padding: 30px;
+
 }
 
 .about_head {
@@ -591,8 +596,19 @@ grid-template-columns: 1fr 1fr;
 }
 
 .about {
+    margin-top: 250px;
+    margin-left: 10%;
+    height: max-content;
+    width: max-content;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color:rgb(13, 6, 68) ;
+    padding: 30px;
+    border-radius: 15px;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    box-shadow: 10px 10px 10px black;
 }
 
 
@@ -703,7 +719,7 @@ grid-template-columns: 1fr 1fr;
     margin-left: 120px;
     height: 1300px;
     width: 1200px;
-    background-image: url("../images/profile.png");
+    background-image: url("../images/profile_solid.png");
     background-size: cover;
     background-color: #666666;
     border-width: 20px;
