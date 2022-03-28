@@ -257,6 +257,13 @@ header {
     width: 150px;
 }
 
+.cprt {
+    color: rgb(184, 184, 184);
+    font-size: 25px;
+    margin-left: 75%;
+    width: max-content;
+    margin-bottom: 30px;
+}
 
 
 
@@ -283,7 +290,7 @@ header {
 .intro_line3 {
  font-size: 30px;   
  font-weight: 900;
- color: #c8d3dad5;
+ color: #f1faffd5;
  font-family: Georgia, 'Times New Roman', Times, serif;
  margin-top: 30px;
  letter-spacing: 2px;
@@ -537,7 +544,14 @@ a {
 }
 
 
-
+.tech_stack_head {
+    color: white;
+    font-size: 65px;
+    font-weight: 900;
+    margin-left: 40%;
+    margin-top: 15%;
+    text-shadow: 8px 8px 8px black;
+}
 
 
 
