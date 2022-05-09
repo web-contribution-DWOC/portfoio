@@ -101,7 +101,7 @@ mark {
     width: 60px;
 }
 
-#svg_top_insta:hover {
+/* #svg_top_insta:hover {
     height: 60px;
     width: 60px;
 }
@@ -116,7 +116,7 @@ mark {
 #social_back_twitter:hover {
     height: 60px;
     width: 60px;
-}
+} */
 
 .fab_roll {
  background-color: green;
@@ -557,24 +557,35 @@ a {
 .tech_stack_container {
     margin: 0 auto;
     width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    grid-template-rows: repeat(3, 250px);
+
 }
 
 .tech {
     display: grid;
     background-color: rgb(65, 65, 65);
     border-radius: 15px;
+    width: fit-content;
+    height: fit-content;
+    box-shadow:10px 10px 10px black;
+}
+
+.tech:hover {
+    transform: scale(1.5);
 }
 
 .tech_name {
-    font-size: 25px;
+    font-size: 26px;
     color: white;
     width: fit-content;
     margin: 0 auto;
 }
 
 .tech img{
-   height: 100px;
-   width: 100px;
+   height: 120px;
+   width: 120px;
    background-color: grey;
    border-radius: 15px;
 }
