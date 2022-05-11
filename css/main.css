@@ -558,13 +558,13 @@ a {
     margin: 0 auto;
     width: fit-content;
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(4, 250px);
     grid-template-rows: repeat(3, 250px);
-
 }
 
 .tech {
-    display: grid;
+    margin-left: 50px;
     background-color: rgb(65, 65, 65);
     border-radius: 15px;
     width: fit-content;
