@@ -388,7 +388,7 @@ border-radius: 0 325px 325px 0;
 }
 
 .social_back_twitter {
-    background-color: #ffebee;
+    background-color: #090707;
     /* margin-left: 100px; */
     border-radius: 50%;
     height: 50px;
@@ -529,13 +529,10 @@ border-radius: 0 325px 325px 0;
 }
 
 a:hover svg {
-   height: 45px;
-   width: 45px;
+   height: 60px;
+   width: 60px;
 }
-a:hover div {
-    font-size: 33px;
-    margin-left: 10px;
-}
+
 a:hover {
     text-shadow: 5px 5px 5px black;
 }
@@ -1106,12 +1103,4 @@ svg {
 
 }
 
-#top_insta  {
-    width: 50px;
-}
-#top_linkedin {
-    width: 50px;
-}
-#top_twitter {
-    width: 50px;
-}
+
