@@ -288,22 +288,21 @@ header {
     font-weight: 900;
     color: white;
     margin-top: 45px;
-    text-shadow: 10px 10px 10px black,10px 10px 10px black, 10px 10px 10px black,10px 10px 10px black;
     display: inline-block;
 }
 
 .typed {
-    overflow: hidden;
-    background: fixed linear-gradient(-90deg, #00DFFC 5px, #0000 0) 10px 0,
-    linear-gradient(#00DFFC 0 0) 0 0;
+    color: #0000;
+    background:linear-gradient(-90deg, #ffffff 5px, #0000 0) 10px 0,
+    linear-gradient(#ffffff 0 0) 0 0;
+    
     -webkit-background-clip: padding-box, text;
     background-size: calc(var(--n)*1ch) 200%;
     background-clip: padding-box, text;
     background-repeat: no-repeat;
     animation: 
-        b .7s infinite steps(1),
-        t calc(var(--n)*.3s) steps(var(--n)) forwards;
-    
+        b .5s infinite steps(1),
+        t calc(30*.3s) steps(90) forwards;
 }
 
 @keyframes t {
