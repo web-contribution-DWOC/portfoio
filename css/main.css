@@ -506,7 +506,7 @@ border-radius: 0 325px 325px 0;
     box-shadow: 10px 10px 10px black;
 }
 
-.projects_item:hover .chat_bot {
+.projects_item:hover  {
     border-radius: 15px;
     border-color: white;
     border-width: 3px;
@@ -559,14 +559,19 @@ border-radius: 0 325px 325px 0;
     display: grid;
     grid-template-columns: 50px 300px;
 }
+
+.link:hover {
+transform: scale(1.2);  
+}
+
 .live {
    width: 200px;
 }
 
-a:hover svg {
-   height: 60px;
-   width: 60px;
-}
+.top_social a:hover svg {
+    height: 60px;
+    width: 60px;
+ }
 
 a:hover {
     text-shadow: 5px 5px 5px black;
