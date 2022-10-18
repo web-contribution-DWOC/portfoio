@@ -1,3 +1,20 @@
+// preloader start
+let loader = document.querySelector(".loader-container");
+
+window.addEventListener("load", vanish);
+
+function vanish() {
+  loader.classList.add("disappear");
+}
+$(function () {
+  $("a.nav-link").each(function () {
+    if ($(this).prop("href") == window.location.href) {
+      $(this).addClass("current-link");
+    }
+  });
+});
+
+// preloader end 
 var fab2 = document.getElementById("fab2");
 var home = document.getElementById("home");
 var stack = document.getElementById("stack");
@@ -43,8 +60,6 @@ function backmusic() {
     back.currentTime = 0;
     back.play();
 }
-
-
 
 
 fab2.addEventListener("click", play);
